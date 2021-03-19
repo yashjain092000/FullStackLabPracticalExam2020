@@ -73,3 +73,82 @@ nav ul li a {
 .login a{
     color:rgb(235, 82, 82);
 }
+
+
+
+.right-section{
+    float:left;
+}
+
+.list-item{
+    margin:56px 0 0 0;
+    
+}
+.list-itemc{
+    margin:56px 0 0 0;
+    color:red;
+}
+.right-section a{
+    margin:30px 20px 20px 80px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1.1.5em;
+}
+
+.right-content{
+    margin:14px 0 0 80px;
+    width:300px;
+    text-align:justify;
+}
+
+
+.left-section{
+    float:right;
+}
+.left-section>button{
+    height:30px;
+    width:30px;
+    text-decoration: none;
+    margin:20px 30px 0 0;
+    background-color:rgb(221, 220, 220);
+    border:none;
+    border-radius:10px;
+}
+.box1{
+    background-color:rgb(211, 230, 228);
+    position:absolute;
+    right:210px;
+    top:230px;
+    /* border:3px solid red; */
+    height:205px;
+    width:600px;
+    border-radius: 20px;
+}
+.box2{
+    background-color:rgb(211, 230, 228);
+    position:absolute;
+    right:52px;
+    top:486px;
+    /* border:3px solid red; */
+    height:200px;
+    width:600px;
+    border-radius: 20px;
+}
+.img1{
+    
+    position:absolute;
+    right:145px;
+    top:175px;
+    height:500px;
+    width:625px;
+    z-index:3;
+}
+.img2{
+    position:absolute;
+    right:88px;
+    top:220px;
+    height:500px;
+    width:625px;
+    z-index:2;
+}
